@@ -48,6 +48,8 @@
 
 }
 .tutorials{
+    box-sizing: border-box;
+    height: 70px;
     display: inline-block;
     padding: 23px;
     font-size: 18px;
@@ -64,11 +66,14 @@
     font-size: 18px;
 }
 .exercices{
-    
+    box-sizing: border-box;
+    width: 140px;height: 70px;
+    position: absolute;
+    top: 0px;
     display: inline-block;
     padding: 23px;
-    
     font-size: 18px;
+    padding-left: 32px;
 }
 .right{
     background-color: white;
@@ -196,15 +201,15 @@
 .video:hover{
     background-color: #fff18c;
 }
-.tutorials .toolbar{
+.toolbar{
     visibility: hidden;
     z-index: 1;
     box-sizing: border-box;
     background-color: white;
     width: 100px;height: 100px;
-    position: absolute;
-    left: 180px;
-    top: 44px;
+    position: relative;
+    left: 0px;
+    top: 14px;
     transition-duration: 0.1s;
 }
 .tutorials:hover .toolbar{
@@ -215,6 +220,7 @@
     text-decoration: none;
     color: #04AA6D;
     padding-top: 10px;
+    padding: 10px;
     box-sizing: border-box;
     display: block;
     background-color: white;
@@ -243,9 +249,8 @@
 <body>
     <div class="navbar">
     <ul class="three">
-      <li class="tutorials">نمونه کار<i class="fas fa-caret-down" style="position: absolute; right: 405px;" ></i><span class="toolbar"><a class="another" href="nemoonehkar1.html">نمونه کار 1</a><a href="" class="another2">نمونه کار 2</a></span></li>
-      <a href=""><li class="refrences">درباره من<i class="fas fa-caret-down" style="position: absolute; right: 285px;"></i></li></a>
-      <li class="exercices">exercices<i class="fas fa-caret-down" style="position: absolute; right: 170px;" ></i></li>
+      <li class="tutorials">نمونه کار<i class="fas fa-caret-down" style="position: absolute; left: 290px; top: 25px;" ></i><span class="toolbar"><a class="another" href="nemoonehkar1.html">نمونه کار 1</a><a href="" class="another2">نمونه کار 2</a></span></li>
+      <li class="exercices">ارتباط با ما<i class="fas fa-caret-down" style="position: absolute; right: 108px; top: 25px;" ></i></li>
     </ul>
 
         <div class="right">
@@ -259,8 +264,8 @@
     <div class="html">
         <h1 class="title">F.O.A.15</h1>
         <p class="under">سایت رسمی برنامه نویسی متین</p>
-        <a class="learn"href="">learn HTML</a>
-        <a href="" class="video">video tutorial</a>
+        <a class="learn"href="">توضیحات</a>
+        <a href="" class="video">نمونه کار 3</a>
         <a href=""></a>
     </div>
     
