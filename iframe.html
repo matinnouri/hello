@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>نمونه کار 2</title>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .matin{
+        display: block;
+        background-color: orange;
+        height: 70px;
+        text-align: center;
+    }
+    .navbar{
+        display: block;
+        margin: auto;
+        text-decoration: none;
+        background-color: orange;
+        width: 50%; height: 70px;
+    }
+    li{
+        width: 95px;height: 70px;
+        padding: 26px;
+        background-color: orange;
+        display: inline-block;
+        float: left;
+        transition-duration: 0.5s;
+    }
+    li:hover{
+        background-color: black;
+        color: orange;
+        cursor: pointer;
+        padding-right: 50px;
+        
+    }
+    .tooltip{
+        visibility:hidden ;
+        background-color: lightgray;
+        position: absolute;
+        top: 54px;left: 439px;
+        box-sizing: border-box;
+        z-index: 1;
+        width: 80px;height: 30px;
+        padding: 6px;
+        border-radius: 5px;
+        border: 1px solid black;
+        transition: width 0.5s, background-color 2.5s;
+    }
+    .tooltip2{
+        visibility:hidden ;
+        background-color: #336699;
+        position: absolute;
+        top: 54px;left: 539px;
+        box-sizing: border-box;
+        z-index: 1;
+        width: 80px;height: 30px;
+        padding: 6px;
+        border-radius: 5px;
+        border: 1px solid black;
+        transition: width 0.5s ,background-color 2.5s;
+    }
+    li:hover span{
+        visibility: visible;
+        color: black;
+        width: 90px;
+        background-color: rgb(136, 131, 131);
+    }
+    .li:hover{
+        background-color: aqua;
+    }
+    h1{
+        font-size: 50px;
+        position: absolute;
+        top: 100px;left: 300px;
+        border: 3px solid orange;
+        box-sizing: border-box;
+        padding: 30px;
+        border-radius: 20px;
+    }
+
+</style>
+
+</head>
+<body>
+   <div class="matin">
+    <ul class="navbar">
+        <li class="f">drg
+        <span class="tooltip">hello</span></li>
+        <li>drg<span class="tooltip2">hello</span></li>
+        <li>zdrg</li>
+        <li>zdrg</li>
+        <li>dzrg</li>
+    </ul>
+    <h1>استفاده از دکمه های قابل تغییر در سایت شما</h1>
+    <h2 style="position: absolute;right: 30px;font-size: 30px; color: orange;
+    border: 3px solid black;padding: 12px;font-family: fantasy;">نمونه کار 2</h2>
+   </div>
+</body>
+</html>
